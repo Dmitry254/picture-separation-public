@@ -1,0 +1,238 @@
+@font-face {
+    font-weight: 400;
+}
+
+.mainDiv {
+    width: 99vw;
+    position: relative;
+}
+
+.divMain {
+    background-color: black;
+    position: relative;
+    height: 51vw;
+    font-family: 'Arial';
+    width: 100%;
+}
+
+.textMain {
+    z-index: 100;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.headerAbout {
+    color: white;
+    font-size: 2.3vw;
+    width: 100%;
+    word-wrap: break-word;
+    text-shadow: 1px 1px 5px wheat;
+}
+
+.textAbout {
+    z-index: 90;
+    margin-top: 5%;
+    color: white;
+    font-size: 1.3vw;
+    width: 100%;
+    word-wrap: break-word;
+    text-shadow: 1px 1px 3px wheat;
+}
+
+.oneImgMain {
+    z-index: 70;
+    width: 5vw;
+    height: 5vw;
+    background-image: url("/src/img/1.png");
+    background-size: cover;
+}
+
+.oneImgSize {
+    z-index: 70;
+    width: 5vw;
+    height: 5vw;
+}
+
+.twoImgMain {
+    z-index: 60;
+    width: 10vw;
+    height: 10vw;
+    background-image: url("/src/img/2.png");
+    background-size: cover;
+}
+
+.twoImgSize {
+    z-index: 60;
+    width: 10vw;
+    height: 10vw;
+}
+
+.threeImgMain {
+    z-index: 50;
+    width: 14vw;
+    height: 14vw;
+    background-image: url("/src/img/3.png");
+    background-size: cover;
+}
+
+.threeImgSize {
+    z-index: 50;
+    width: 14vw;
+    height: 14vw;
+}
+
+.fourImgMain {
+    z-index: 40;
+    width: 17vw;
+    height: 17vw;
+    background-image: url("/src/img/4.png");
+    background-size: cover;
+}
+
+.fourImgSize {
+    z-index: 40;
+    width: 17vw;
+    height: 17vw;
+}
+
+.fiveImgMain {
+    z-index: 30;
+    width: 20vw;
+    height: 20vw;
+    background-image: url("/src/img/5.png");
+    background-size: cover;
+}
+
+.fiveImgSize {
+    z-index: 30;
+    width: 20vw;
+    height: 20vw;
+}
+
+.buttonReset {
+    position: absolute;
+    top: 1%;
+    left: 1.5%;
+    z-index: 100;
+    width: 8%;
+    height: 4%;
+    font-size: 1.3vw;
+    text-shadow: 1px 1px 2px black;
+    margin: 0 0 0 0;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.buttonReset:active {
+    left: 1.6%;
+    width: 7.8%;
+    height: 3.9%;
+    font-size: 1.28vw;
+}
+
+.clickText {
+    position: absolute;
+    z-index: 31;
+    color: white;
+    font-size: 1.3vw;
+    width: 100%;
+    word-wrap: break-word;
+    text-shadow: 1px 1px 3px wheat;
+}
+
+@media (width >
+
+120em
+
+) {
+    .mainDiv {
+        left: calc((100% - 1920px) / 2);
+        width: 1920px;
+    }
+
+    .divMain {
+        height: 1200px;
+        margin-top: 58px;
+    }
+
+    .headerAbout {
+        font-size: 45px;
+    }
+
+    .textAbout {
+        font-size: 25px;
+    }
+
+    .oneImgMain {
+        width: 96px;
+        height: 96px;
+    }
+
+    .oneImgSize {
+        width: 96px;
+        height: 96px;
+    }
+
+    .twoImgMain {
+        width: 192px;
+        height: 192px;
+    }
+
+    .twoImgSize {
+        width: 192px;
+        height: 192px;
+    }
+
+    .threeImgMain {
+        width: 268px;
+        height: 268px;
+    }
+
+    .threeImgSize {
+        width: 268px;
+        height: 268px;
+    }
+
+    .fourImgMain {
+        width: 326px;
+        height: 326px;
+    }
+
+    .fourImgSize {
+        width: 326px;
+        height: 326px;
+    }
+
+    .fiveImgMain {
+        width: 384px;
+        height: 384px;
+    }
+
+    .fiveImgSize {
+        width: 384px;
+        height: 384px;
+    }
+
+    .clickText {
+        font-size: 25px;
+    }
+
+    .button {
+        font-size: 25px;
+    }
+
+    .button:active {
+        font-size: 24.5px;
+    }
+}
